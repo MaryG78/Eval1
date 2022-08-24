@@ -21,47 +21,46 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen" href="style.css" />
+
+    <!-- CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
   </head>
 
   <body>
     <!-- Header -->
     <header class="menu">
-      <div>
-        <img class="logo" src="images/logo.jpg" alt="sauvons la forêt" />
+      <div class="logo">
+        <img class="img-logo" src="images/logo.jpg" width="75" height="80" alt="sauvons la forêt" />
       </div>
       <nav class="topbar">
-        <a href="#"> Notre association </a>
-        <a href="#agir"> Agir avec nous </a>
-        <a href="#contact"> Nous contacter </a>
+        <a href="index.html" class="lien-topbar"> Notre association </a>
+        <a href="agir.html" class="lien-topbar"> Agir avec nous </a>
+        <a href="contact.html" class="lien-topbar"> Nous contacter </a>
       </nav>
     </header>
     <!-- End header -->
 
     <!-- Main -->
     <main>
+        <div class="background">
       <section class="presentation">
-        <h1>
+        <h1 class="titre">
           Forest Rescue, l'association qui lutte contre la déforestation due à
           l'agriculture de subsistance
         </h1>
-        <hr />
-        <p>
+        <p class="presentation-text">
           L'association Forest Rescue lorem ipsum dolor sit, amet consectetur
           adipisicing elit. Modi iste cum deleniti a corrupti tenetur, atque
           accusantium quod obcaecati.
         </p>
-        <img
-          src="images/deforestation_singe.jpg"
-          alt="Une des conséquences de la déforestation"
-          class="photoSinge"
-        />
       </section>
 
       <section class="preoccupations">
-        <h2>Nos préoccupations</h2>
-        <hr />
-        <p>
+        <h2 class="titre">Nos préoccupations</h2>
+        <hr class="hr" />
+        <p class="preoccupations-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
           temporibus alias deleniti veniam. Nostrum maiores laboriosam magni
           veniam esse cupiditate doloribus quam eveniet amet maxime fuga, dolor
@@ -88,9 +87,9 @@
       </section>
 
       <section class="actions">
-        <h2>Bilan de nos actions</h2>
-        <hr />
-        <p>
+        <h2 class="titre">Bilan de nos actions</h2>
+        <hr class="hr" />
+        <p class="actions-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
           temporibus alias deleniti veniam. Nostrum maiores laboriosam magni
           veniam esse cupiditate doloribus quam eveniet amet maxime fuga, dolor
@@ -113,37 +112,34 @@
           veniam. Nostrum maiores laboriosam magni veniam esse cupiditate
           doloribus quam eveniet amet maxime fuga, dolor ducimus placeat itaque.
         </p>
-        <a href="#"
-          ><img
-            class="rapport"
-            src="images/rapport activité 2017.webp"
-            alt="rapport d'activité 2017"
-        /></a>
-        <a href="#"
-          ><img
-            class="rapport"
-            src="images/rapport activite 2018.webp"
-            alt="rapport d'activité 2018"
-        /></a>
-        <a href="#"
-          ><img
-            class="rapport"
-            src="images/rapport activité 2019.webp"
-            alt="rapport d'activité 2019"
-        /></a>
-        <a href="#"
-          ><img
-            class="rapport"
-            src="images/rapport activite 2020.webp"
-            alt="rapport d'activité 2020"
-        /></a>
       </section>
+    </div>
+        
+
+        <div class="rapport">
+            <a href="#"><img class="image-rapport" src="images/rapport activité 2017.webp" alt="rapport d'activité 2017"/></a>
+            <a href="#"><img class="image-rapport" src="images/rapport activite 2018.webp" alt="rapport d'activité 2018"/></a>
+            <a href="#"><img class="image-rapport" src="images/rapport activité 2019.webp" alt="rapport d'activité 2019"/></a>
+            <a href="#"><img class="image-rapport" src="images/rapport activite 2020.webp" alt="rapport d'activité 2020"/></a>
+           </div>
+       
+
+       
+      
     </main>
 
     <!-- End main -->
 
     <!-- footer -->
-    <footer></footer>
+    <footer class="footer">
+        <div class="container text-center">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-skype"></i></a>
+        </div>
+      </footer>
 
     <!-- End footer -->
   </body>

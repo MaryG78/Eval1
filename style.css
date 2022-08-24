@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.lien-topbar {
+  text-decoration: none;
+  color: rgb(27, 66, 33);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+a:hover {
+  color: rgb(154 179 158);
+}
+
+.menu {
+  background-color: #dfd9b5;
+  width: 100%;
+  padding: 5px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.background {
+  background: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(images/deforestation_singe.jpg) center center / cover no-repeat;
+    padding: 2px;
+    height: auto;
+    width: auto;
+}
+
+.presentation h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.presentation-text {
+    text-align: center;
+    padding-bottom: 9px;
+}
+
+.preoccupations,
+.actions {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.titre {
+  font-size: 20px;
+  padding: 5px;
+  margin-top: auto;
+  margin-bottom: 5px;
+}
+
+.hr {
+  background-color: rgb(27, 66, 33);
+  width: 50%;
+  height: 4px;
+  margin-left: 5px;
+}
+
+.preoccupations-text,
+.actions-text {
+  padding: 7px;
+  text-align: justify;
+}
+
+.rapport {
+  background-color: #dfd9b5;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.image-rapport {
+  padding: 2px;
+}
+
+.footer {
+  background: rgb(27, 66, 33);
+  padding: 10px 0;
+}
+.footer a {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid white;
+  transition: all 0.5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid white;
+}
+.footer a:hover {
+  color: white;
+}
+
+@media screen and (min-width: 912px) {
+.menu {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.logo {
+    padding-left: 10px;
+    }
+
+.topbar {
+    width: 70%;
+    align-items: center;    
+  }
+
+.lien-topbar {
+    font-size: 2rem;
+  }
+
+}

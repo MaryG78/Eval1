@@ -39,6 +39,7 @@ a:hover {
   justify-content: space-around;
 }
 
+
 .background {
   background: linear-gradient(
       to top,
@@ -51,17 +52,17 @@ a:hover {
     width: auto;
 }
 
+
 .presentation h1 {
     text-align: center;
     font-weight: bold;
 }
 .presentation-text {
     text-align: center;
-    padding-bottom: 9px;
+    padding-bottom: 15px;
 }
 
-.preoccupations,
-.actions {
+.preoccupations, .actions {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -137,3 +138,23 @@ a:hover {
   }
 
 }
+
+/* page agir.html */
+
+.article-img {
+    position: absolute;
+    width: 10%;
+    min-width: 100px;
+    height: auto;
+    padding: 10px;
+    left: 0;
+    top: 0;
+}
+
+.article {
+    position: relative;
+    overflow: hidden;
+    padding-left: 200px;
+}
+
+

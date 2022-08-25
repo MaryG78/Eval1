@@ -46,7 +46,7 @@ a:hover {
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
     ),
-    url(images/deforestation_singe.jpg) center center / cover no-repeat;
+    url(images/deforestation_singe.jpg) fixed center / cover no-repeat;
     padding: 2px;
     height: auto;
     width: auto;
@@ -149,12 +149,16 @@ a:hover {
     padding: 10px;
     left: 0;
     top: 0;
+    
 }
 
 .article {
     position: relative;
-    overflow: hidden;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
+.article-text {
+    text-align: justify;
+    margin-right: 5px;
+}
 
